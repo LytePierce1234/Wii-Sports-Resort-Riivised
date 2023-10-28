@@ -1,0 +1,16 @@
+<wiidisc version="1">
+	<id game="RZT" />
+	<options>
+		<section name="Mod">
+			<option name="Mod">
+				<choice name="Enabled">
+					<patch id="RZTfolder" />
+				</choice>
+			</option>
+		</section>
+	</options>
+	<patch id="RZTfolder">
+		<folder external="RZT" recursive="false" />
+		<folder external="RZT" disc="/" />
+	</patch>
+</wiidisc>
